@@ -120,51 +120,51 @@ export default function Home() {
         </div>
       </section>
 
-      {/* NOVA SEÇÃO: App Development Highlight (COM IMAGEM 1.jpg) */}
-      <section className="max-w-6xl w-full mb-32 py-16 px-8 bg-slate-50 rounded-[3rem] border border-slate-100 overflow-hidden relative">
+{/* SEÇÃO: Software Engineering Highlight (DESIGN ATUALIZADO) */}
+      <section className="max-w-6xl w-full mb-32 py-16 px-8 bg-slate-50 rounded-[3rem] border border-slate-100 overflow-hidden relative mx-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-left relative z-10">
-            <div className="flex items-center gap-2 text-blue-600 font-bold text-sm mb-4 uppercase tracking-widest">
-              <Smartphone size={20} /> Next-Gen Mobile Development
+            <div className="flex items-center gap-2 text-blue-600 font-bold text-sm mb-4 uppercase tracking-[0.2em]">
+              <Laptop size={20} /> Advanced Software Engineering
             </div>
-            <h2 className="text-4xl md:text-5xl font-black text-slate-950 mb-6 leading-tight">
-              We build apps that <span className="text-blue-600">define industries.</span>
+            <h2 className="text-4xl md:text-5xl font-black text-slate-950 mb-6 leading-tight tracking-tighter">
+              Bespoke systems that <span className="text-blue-600">drive results.</span>
             </h2>
-            <p className="text-slate-600 text-lg mb-8 leading-relaxed">
-              From iOS to Android, we create seamless mobile experiences that combine stunning UI with powerful backend architecture. Your vision, engineered for the palm of their hand.
+            <p className="text-slate-600 text-lg mb-8 leading-relaxed font-medium">
+              More than just apps, we build complete digital ecosystems. From complex ERP systems to high-performance web platforms, we engineer the core technology that powers global enterprises.
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
-              <div className="flex items-center gap-2 text-sm font-bold text-slate-700">
-                <Zap className="text-blue-600" size={18} /> Ultra-Fast Performance
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8 text-slate-700">
+              <div className="flex items-center gap-2 text-sm font-black uppercase tracking-wider">
+                <Code2 className="text-blue-600" size={18} /> Enterprise Core
               </div>
-              <div className="flex items-center gap-2 text-sm font-bold text-slate-700">
-                <Shield className="text-blue-600" size={18} /> Secure by Design
+              <div className="flex items-center gap-2 text-sm font-black uppercase tracking-wider">
+                <Globe className="text-blue-600" size={18} /> Scalable Web
               </div>
             </div>
             <Link 
               href="/contact" 
-              className="inline-block bg-slate-900 text-white px-8 py-4 rounded-xl font-bold hover:bg-slate-800 transition-all"
+              className="inline-block bg-slate-900 text-white px-10 py-4 rounded-xl font-bold hover:bg-slate-800 transition-all shadow-lg"
             >
-              Start App Project
+              Start Your Project
             </Link>
           </div>
 
           <div className="relative group">
-            {/* Moldura da Imagem */}
-            <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform group-hover:scale-[1.02] transition-transform duration-500">
+            {/* Moldura da Imagem 1.jpg */}
+            <div className="relative z-10 rounded-2xl overflow-hidden shadow-[0_20px_50px_rgba(8,_112,_184,_0.1)] border-4 border-white transform group-hover:scale-[1.01] transition-transform duration-500">
               <img 
                 src="/1.jpg" 
-                alt="App Development Showcase" 
+                alt="Software Engineering Showcase" 
                 className="w-full h-auto object-cover"
               />
             </div>
-            {/* Elementos flutuantes decorativos */}
-            <div className="absolute -top-6 -right-6 w-24 h-24 bg-blue-600/10 rounded-full blur-2xl"></div>
-            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-indigo-600/10 rounded-full blur-3xl"></div>
+            {/* Efeitos visuais de fundo */}
+            <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-200/20 rounded-full blur-3xl"></div>
+            <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-indigo-200/20 rounded-full blur-3xl"></div>
           </div>
         </div>
       </section>
-
+      
       {/* 5. Final CTA Section */}
       <section className="w-full max-w-6xl bg-blue-600 rounded-3xl p-12 text-white flex flex-col items-center shadow-2xl shadow-blue-200">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">Ready to scale your business?</h2>

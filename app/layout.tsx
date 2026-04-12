@@ -5,6 +5,8 @@ import "./globals.css";
 // Importamos o componente de Analytics da Vercel
 import { Analytics } from "@vercel/analytics/react";
 
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 // Importamos os seus componentes principais
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
@@ -55,6 +57,7 @@ export default function RootLayout({
         */}
         <WhatsAppButton />
         <Analytics />
+        <SpeedInsights />
 
       </body>
     </html>

@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/next";
 
-// Importamos os componentes principais
+// Importamos o componente de Analytics da Vercel
+import { Analytics } from "@vercel/analytics/react";
+
+// Importamos os seus componentes principais
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
-import WhatsAppButton from "./components/WhatsAppButton"; // Novo botão adicionado
+import WhatsAppButton from "./components/WhatsAppButton";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,14 +35,13 @@ export default function RootLayout({
       lang="pt-br"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      {/* Adicionei 'bg-white' no body para garantir o estilo clean */}
       <body className="min-h-full flex flex-col bg-white text-slate-900">
         
         {/* Navbar fixa no topo */}
         <Navbar />
 
-        {/* A tag main com 'flex-grow' é o segredo para o Footer 
-          nunca subir quando a página tem pouco conteúdo.
+        {/* A tag main com 'flex-grow' garante que o conteúdo ocupe o espaço 
+            disponível e o Footer fique sempre no final da tela.
         */}
         <main className="flex-grow">
           {children}
@@ -49,10 +50,11 @@ export default function RootLayout({
         {/* O Footer no final da estrutura */}
         <Footer />
 
-        {/* O botão do WhatsApp fica aqui, no final, para 
-          ficar flutuando sobre todo o conteúdo.
+        {/* Botão flutuante do WhatsApp e o componente de 
+            Analytics para monitorar acessos na Vercel.
         */}
         <WhatsAppButton />
+        <Analytics />
 
       </body>
     </html>

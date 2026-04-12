@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 // Importamos os componentes principais
 import Navbar from "./components/navbar";
@@ -52,6 +53,7 @@ export default function RootLayout({
           ficar flutuando sobre todo o conteúdo.
         */}
         <WhatsAppButton />
+        <Analytics />
 
       </body>
     </html>

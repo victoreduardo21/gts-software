@@ -53,6 +53,7 @@ export default function RootLayout({
           ficar flutuando sobre todo o conteúdo.
         */}
         <WhatsAppButton />
+        <Analytics />
 
       </body>
     </html>

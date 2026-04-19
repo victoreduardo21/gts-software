@@ -41,8 +41,8 @@ export default function Navbar() {
         >
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
             <Link href="/" className="text-[13px] font-medium hover:text-blue-600 transition">Home</Link>
-            <Link href="/services" className="text-[13px] font-medium hover:text-blue-600 transition">Services</Link>
-            <Link href="/systems" className="text-[13px] font-medium hover:text-blue-600 transition">Systems</Link>
+            <Link href="/services" className="text-[13px] font-medium hover:text-blue-600 transition">Serviços</Link>
+            <Link href="/systems" className="text-[13px] font-medium hover:text-blue-600 transition">Sistemas</Link>
             <Link href="/portfolio" className="text-[13px] font-medium hover:text-blue-600 transition">Portfólio</Link>
 
             {/* Botão de Contact - Fino e Compacto */}
@@ -50,7 +50,7 @@ export default function Navbar() {
               href="/contact"
               className="bg-blue-600 hover:bg-blue-700 text-white text-[13px] font-bold px-5 py-1.5 rounded-full transition shadow-md shadow-blue-100"
             >
-              Contact
+              Contato
             </Link>
           </div>
         </div>

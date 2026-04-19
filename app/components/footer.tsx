@@ -8,7 +8,6 @@ export default function Footer() {
       {/* Container centralizado para não espalhar em telas de notebook/monitor */}
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-          
           {/* Coluna 1: Sobre a GTS */}
           <div className="space-y-6">
             <div className="flex items-center gap-2">
@@ -17,8 +16,8 @@ export default function Footer() {
               </h3>
             </div>
             <p className="text-sm leading-relaxed max-w-xs text-slate-500 font-medium">
-              Innovative systems and engineering solutions designed to elevate
-              your business with global cutting-edge technology.
+              Sistemas inovadores e soluções de engenharia projetadas para
+              impulsionar seu negócio com tecnologia de ponta global.
             </p>
           </div>
 
@@ -28,10 +27,35 @@ export default function Footer() {
               Navigation
             </h4>
             <ul className="space-y-4 text-sm font-bold">
-              <li><Link href="/" className="hover:text-blue-600 transition">Home</Link></li>
-              <li><Link href="/services" className="hover:text-blue-600 transition">Services</Link></li>
-              <li><Link href="/systems" className="hover:text-blue-600 transition">Systems</Link></li>
-              <li><Link href="/portfolio" className="hover:text-blue-600 transition">Portfolio</Link></li>
+              <li>
+                <Link href="/" className="hover:text-blue-600 transition">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="hover:text-blue-600 transition"
+                >
+                  Serviços
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/systems"
+                  className="hover:text-blue-600 transition"
+                >
+                  Sistemas
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/portfolio"
+                  className="hover:text-blue-600 transition"
+                >
+                  Portfólio
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -39,72 +63,73 @@ export default function Footer() {
           <div className="md:ml-auto space-y-8">
             <div>
               <h4 className="text-slate-900 font-bold mb-6 text-xs uppercase tracking-widest">
-                Contact
+                Contato
               </h4>
               <div className="space-y-3 font-medium">
-                <p className="text-sm text-slate-900 font-bold">Sales@gts-software.com</p>
+                <p className="text-sm text-slate-900 font-bold">
+                  Sales@gts-software.com
+                </p>
                 <p className="text-sm">(13) 99610-4848</p>
               </div>
             </div>
 
             <div>
               <span className="text-[10px] uppercase font-black text-slate-400 tracking-widest">
-                Follow us
+                Siga-nos
               </span>
               <div className="flex space-x-3 mt-4">
-                
                 {/* FACEBOOK - Usando 2.png */}
-                <a 
-                  href="https://www.facebook.com/profile.php?id=61572617272883" 
-                  target="_blank" 
+                <a
+                  href="https://www.facebook.com/profile.php?id=61572617272883"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-center hover:border-blue-600 transition-all shadow-sm overflow-hidden group"
                 >
-                  <img 
-                    src="/2.png" 
-                    alt="Facebook GTS" 
+                  <img
+                    src="/2.png"
+                    alt="Facebook GTS"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform"
                   />
                 </a>
 
                 {/* INSTAGRAM - Usando 5.png */}
-                <a 
-                  href="https://www.instagram.com/global_tech_software/" 
-                  target="_blank" 
+                <a
+                  href="https://www.instagram.com/global_tech_software/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-center hover:border-blue-600 transition-all shadow-sm overflow-hidden group p-1"
                 >
-                  <img 
-                    src="/5.png" 
-                    alt="Instagram GTS" 
+                  <img
+                    src="/5.png"
+                    alt="Instagram GTS"
                     className="w-full h-full object-contain group-hover:scale-110 transition-transform"
                   />
                 </a>
 
                 {/* X (Twitter) - Usando 3.png */}
-                <a 
-                  href="https://x.com/GTSsoftware" 
-                  target="_blank" 
+                <a
+                  href="https://x.com/GTSsoftware"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-center hover:border-blue-600 transition-all shadow-sm overflow-hidden group p-2"
                 >
-                  <img 
-                    src="/3.png" 
-                    alt="X GTS" 
+                  <img
+                    src="/3.png"
+                    alt="X GTS"
                     className="w-full h-full object-contain group-hover:scale-110 transition-transform"
                   />
                 </a>
 
                 {/* LINKEDIN - Usando 4.png */}
-                <a 
-                  href="https://www.linkedin.com/company/gts-globaltechsoftware/" 
-                  target="_blank" 
+                <a
+                  href="https://www.linkedin.com/company/gts-globaltechsoftware/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-center hover:border-blue-600 transition-all shadow-sm overflow-hidden group p-2"
                 >
-                  <img 
-                    src="/4.png" 
-                    alt="LinkedIn GTS" 
+                  <img
+                    src="/4.png"
+                    alt="LinkedIn GTS"
                     className="w-full h-full object-contain group-hover:scale-110 transition-transform"
                   />
                 </a>

@@ -4,6 +4,7 @@ import "./globals.css";
 
 // Importamos o componente de Analytics da Vercel
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import { SpeedInsights } from "@vercel/speed-insights/next"
 

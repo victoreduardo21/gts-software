@@ -67,6 +67,18 @@ const projects = [
     category: "Estilo de Vida",
     img: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=800",
   },
+   {
+    title: "Mecanico",
+    link: "https://mecanico-ten.vercel.app/",
+    category: "Automotivo",
+    img: "https://blog.thinkseg.com/wp-content/uploads/2021/02/b58b8561-dia-do-mecanico.jpg",
+  },
+   {
+    title: "Contabilidade",
+    link: "https://site-contabilidade-six.vercel.app/",
+    category: "Contabilidade",
+    img: "https://cdn.prod.website-files.com/6938b9d21c12a3f7f90772ba/696537c37ecaf37fcfb022a6_shutterstock_1954078291-scaled-2.jpeg",
+  },
 ];
 
 export default function PortfolioPage() {

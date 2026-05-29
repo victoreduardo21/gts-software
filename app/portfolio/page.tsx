@@ -1,5 +1,6 @@
 import { ExternalLink, MessageCircle, ArrowRight } from "lucide-react";
 
+// 1. Definição da base de dados dos 16 projetos do seu Portfólio
 const projects = [
   {
     title: "Plataforma de Videoconferência",
@@ -64,23 +65,23 @@ const projects = [
   {
     title: "Dom Pedro",
     link: "https://site-barbeiro.netlify.app/",
-    category: "Barberia",
+    category: "Barbearia",
     img: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=800",
   },
-   {
-    title: "ZR Car Mecanico",
+  {
+    title: "ZR Car Mecânico",
     link: "https://mecanico-ten.vercel.app/",
     category: "Automotivo",
     img: "https://blog.thinkseg.com/wp-content/uploads/2021/02/b58b8561-dia-do-mecanico.jpg",
   },
-   {
+  {
     title: "DUOS CONTABILIDADE",
     link: "https://site-contabilidade-six.vercel.app/",
     category: "Contabilidade",
     img: "https://cdn.prod.website-files.com/6938b9d21c12a3f7f90772ba/696537c37ecaf37fcfb022a6_shutterstock_1954078291-scaled-2.jpeg",
   },
   {
-    title: "morandi contabilidade",
+    title: "Morandi Contabilidade",
     link: "https://morandi-contabilidade-six.vercel.app/",
     category: "Contabilidade",
     img: "https://eseg.edu.br/wp-content/uploads/2026/05/economia-ou-contabilidade.png",
@@ -104,7 +105,7 @@ export default function PortfolioPage() {
     <div className="bg-slate-50 min-h-screen pt-32 pb-20 px-4 font-sans">
       <div className="container mx-auto max-w-6xl">
         
-        {/* Header CENTRALIZADO */}
+        {/* 2. Cabeçalho Centralizado da Página */}
         <div className="text-center mb-20">
           <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6 tracking-tight">
             Nosso <span className="text-blue-600">Portfólio</span>
@@ -114,28 +115,32 @@ export default function PortfolioPage() {
           </p>
         </div>
 
-        {/* Grid de Projetos */}
+        {/* 3. Grade Grid Otimizada para Exibição dos Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-32">
           {projects.map((project, index) => (
             <div
               key={index}
               className="group bg-white border border-slate-100 rounded-[2.5rem] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 flex flex-col h-full"
             >
+              {/* Espaço reservado para a Imagem de Capa do Projeto */}
               <div className="h-64 relative overflow-hidden bg-slate-200">
                 <img
                   src={project.img}
                   alt={project.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
+                {/* Etiqueta Flutuante contendo a Categoria */}
                 <div className="absolute top-6 right-6 bg-white/95 backdrop-blur-md px-4 py-1.5 rounded-full text-[10px] font-black text-slate-600 uppercase tracking-widest border border-slate-100">
                   {project.category}
                 </div>
               </div>
 
+              {/* Informações de Texto do Card do Projeto */}
               <div className="p-8 flex flex-col grow text-left">
                 <h3 className="text-slate-900 font-bold text-xl mb-4 group-hover:text-blue-600 transition-colors tracking-tight">
                   {project.title}
                 </h3>
+                {/* Link Externo de redirecionamento */}
                 <div className="mt-auto">
                   <a
                     href={project.link}
@@ -151,33 +156,38 @@ export default function PortfolioPage() {
           ))}
         </div>
 
-        {/* Banner de Contato CENTRALIZADO */}
-        <section className="relative overflow-hidden bg-blue-600 rounded-[2.5rem] p-8 md:p-14 text-white text-center shadow-xl shadow-blue-200 max-w-5xl mx-auto">
-          <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-64 h-64 bg-blue-400 rounded-full blur-[80px] opacity-30"></div>
+        {/* 4. Banner de Contato em Azul Escuro Corporativo Premium (Ajustado) */}
+        <section className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-blue-950 to-slate-950 rounded-[2.5rem] p-12 md:p-20 text-white text-center shadow-2xl border border-slate-800 max-w-5xl mx-auto">
+          {/* Efeito luminoso sutil ao fundo do Banner */}
+          <div className="absolute -top-24 right-0 w-80 h-80 bg-blue-500/10 rounded-full blur-[100px]"></div>
 
-          <div className="relative z-10 max-w-2xl mx-auto">
-            <div className="bg-white/10 w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-6 backdrop-blur-sm border border-white/10">
+          <div className="relative z-10 max-w-2xl mx-auto flex flex-col items-center">
+            {/* Ícone de Balão de Mensagem Superior */}
+            <div className="bg-white/5 w-12 h-12 rounded-xl flex items-center justify-center mb-6 backdrop-blur-sm border border-white/10 text-blue-400">
               <MessageCircle size={24} />
             </div>
 
-            <h2 className="text-3xl md:text-5xl font-black mb-6 italic tracking-tight">
+            <h2 className="text-3xl md:text-5xl font-black mb-6 tracking-tight">
               Pronto para escalar?
             </h2>
 
-            <p className="text-blue-50 text-base md:text-lg mb-10 leading-relaxed font-medium opacity-90">
+            <p className="text-slate-400 text-base md:text-lg mb-10 leading-relaxed font-medium opacity-90">
               Não deixe seu projeto para amanhã. Vamos conversar sobre seus
               objetivos de negócio no WhatsApp agora mesmo.
             </p>
 
+            {/* Link direto do WhatsApp Estilizado como Botão */}
             <a
               href="https://wa.me/5513996104848"
               target="_blank"
-              className="inline-flex items-center gap-3 bg-white text-blue-600 px-8 py-4 rounded-2xl font-bold text-base hover:bg-slate-50 transition-all transform hover:scale-105 shadow-lg shadow-blue-900/10"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-blue-600 text-white px-8 py-4 rounded-xl font-bold text-base hover:bg-blue-500 transition-all transform hover:-translate-y-0.5 shadow-xl shadow-blue-900/30"
             >
               Falar Conosco <ArrowRight size={18} />
             </a>
           </div>
         </section>
+
       </div>
     </div>
   );

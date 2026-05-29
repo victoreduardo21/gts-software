@@ -62,22 +62,40 @@ const projects = [
     img: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=800",
   },
   {
-    title: "Barber Shop",
+    title: "Dom Pedro",
     link: "https://site-barbeiro.netlify.app/",
-    category: "Estilo de Vida",
+    category: "Barberia",
     img: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=800",
   },
    {
-    title: "Mecanico",
+    title: "ZR Car Mecanico",
     link: "https://mecanico-ten.vercel.app/",
     category: "Automotivo",
     img: "https://blog.thinkseg.com/wp-content/uploads/2021/02/b58b8561-dia-do-mecanico.jpg",
   },
    {
-    title: "Contabilidade",
+    title: "DUOS CONTABILIDADE",
     link: "https://site-contabilidade-six.vercel.app/",
     category: "Contabilidade",
     img: "https://cdn.prod.website-files.com/6938b9d21c12a3f7f90772ba/696537c37ecaf37fcfb022a6_shutterstock_1954078291-scaled-2.jpeg",
+  },
+  {
+    title: "morandi contabilidade",
+    link: "https://morandi-contabilidade-six.vercel.app/",
+    category: "Contabilidade",
+    img: "https://eseg.edu.br/wp-content/uploads/2026/05/economia-ou-contabilidade.png",
+  },
+  {
+    title: "BS Contabilidade",
+    link: "https://bs-contabilidade.vercel.app/",
+    category: "Contabilidade",
+    img: "https://contabilizario.com.br/wp-content/uploads/2024/06/A-importancia-da-contabilidade-para-a-saude-financeira-das-empresas-1-scaled.jpg",
+  },
+  {
+    title: "Money Dash",
+    link: "https://money-dash-sooty.vercel.app/",
+    category: "Sistema Financeiro",
+    img: "https://imgs.jusbr.com/publications/images/7b2849cf9e28e7b1defce4be047d21c0",
   },
 ];
 

@@ -140,7 +140,7 @@ export default function Footer() {
 
         {/* Linha de Copyright Centralizada */}
         <div className="mt-16 pt-8 border-t border-slate-50 text-center text-[10px] text-slate-400 uppercase tracking-[0.2em] font-bold">
-          <p>&copy; {currentYear} GTS SOFTWARE. ALL RIGHTS RESERVED.</p>
+          <p>&copy; {currentYear} GTS - Global Tech Software. ALL RIGHTS RESERVED.</p>
         </div>
       </div>
     </footer>

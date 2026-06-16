@@ -113,8 +113,8 @@ export default function Home() {
               <span className="text-slate-400 font-black tracking-tighter text-lg uppercase group-hover:text-emerald-600 transition-colors duration-300">Unimed</span>
             </div>
             <div className="group flex items-center gap-2 cursor-pointer transition-all">
-              <Truck className="text-slate-400 group-hover:text-blue-600 transition-colors duration-300" size={22} />
-              <span className="text-slate-400 font-black tracking-tighter text-lg uppercase group-hover:text-blue-600 transition-colors duration-300">DRB Logistica</span>
+              <Truck className="text-slate-400 group-hover:text-red-600 transition-colors duration-300" size={22} />
+              <span className="text-slate-400 font-black tracking-tighter text-lg uppercase group-hover:text-red-600 transition-colors duration-300">LMJ Transportes</span>
             </div>
             <div className="group flex items-center gap-2 cursor-pointer transition-all">
               <Car className="text-slate-400 group-hover:text-green-500 transition-colors duration-300" size={22} />

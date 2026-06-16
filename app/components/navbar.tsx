@@ -17,7 +17,7 @@ export default function Navbar() {
           className="text-lg font-bold tracking-tight flex items-center gap-1"
         >
           <span className="text-slate-900">GTS</span> 
-          <span className="text-blue-500">Software</span>
+          <span className="text-blue-500">Global Tech Software</span>
         </Link>
 
         {/* Menu Hamburguer (Mobile) */}

@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="space-y-6">
             <div className="flex items-center gap-2">
               <h3 className="text-slate-900 font-black text-2xl tracking-tighter uppercase">
-                GTS <span className="text-blue-600">Software</span>
+                GTS <span className="text-blue-600">Global Tech Software</span>
               </h3>
             </div>
             <p className="text-sm leading-relaxed max-w-xs text-slate-500 font-medium">

@@ -92,6 +92,12 @@ const projects = [
     category: "Contabilidade",
     img: "https://contabilizario.com.br/wp-content/uploads/2024/06/A-importancia-da-contabilidade-para-a-saude-financeira-das-empresas-1-scaled.jpg",
   },
+      {
+    title: "Cafeteria",
+    link: "https://cafeteria-one-steel.vercel.app/",
+    category: "Aura Craft Coffee",
+    img: "https://3talheres.com.br/wp-content/uploads/2026/06/destaque-cafeterias-e-cafes-especiais-em-brasilia.webp",
+  },
   {
     title: "Money Dash",
     link: "https://money-dash-sooty.vercel.app/",

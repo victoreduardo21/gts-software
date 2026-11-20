@@ -116,6 +116,12 @@ export default function Home() {
               <Truck className="text-slate-400 group-hover:text-red-600 transition-colors duration-300" size={22} />
               <span className="text-slate-400 font-black tracking-tighter text-lg uppercase group-hover:text-blue-600 transition-colors duration-300">LMJ Transportes</span>
             </div>
+
+            <div className="group flex items-center gap-2 cursor-pointer transition-all">
+              <Truck className="text-slate-400 group-hover:text-green-500 transition-colors duration-300" size={22} />
+              <span className="text-slate-400 font-black tracking-tighter text-lg uppercase group-hover:text-green-500 transition-colors duration-300">D R B Logistica</span>
+            </div>
+
             <div className="group flex items-center gap-2 cursor-pointer transition-all">
               <Car className="text-slate-400 group-hover:text-green-500 transition-colors duration-300" size={22} />
               <span className="text-slate-400 font-black tracking-tighter text-lg uppercase group-hover:text-green-500 transition-colors duration-300">Localiza</span>
@@ -156,6 +162,12 @@ export default function Home() {
               <Truck className="text-slate-400 group-hover:text-red-600 transition-colors duration-300" size={22} />
               <span className="text-slate-400 font-black tracking-tighter text-lg uppercase group-hover:text-red-600 transition-colors duration-300">LMJ Transportes</span>
             </div>
+
+           <div className="group flex items-center gap-2 cursor-pointer transition-all">
+              <Truck className="text-slate-400 group-hover:text-green-500 transition-colors duration-300" size={22} />
+              <span className="text-slate-400 font-black tracking-tighter text-lg uppercase group-hover:text-green-500 transition-colors duration-300">D R B Logistica</span>
+            </div>
+
             <div className="group flex items-center gap-2 cursor-pointer transition-all">
               <Car className="text-slate-400 group-hover:text-green-500 transition-colors duration-300" size={22} />
               <span className="text-slate-400 font-black tracking-tighter text-lg uppercase group-hover:text-green-500 transition-colors duration-300">Localiza</span>

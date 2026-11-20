@@ -104,6 +104,32 @@ const projects = [
     category: "Sistema Financeiro",
     img: "https://imgs.jusbr.com/publications/images/7b2849cf9e28e7b1defce4be047d21c0",
   },
+
+
+
+  {
+    title: "DRB Financeiro",
+    link: "https://drb-financeiro.com/",
+    category: "Sistema Financeiro",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyfrvxs2yRce11kl5ltlpEM7YWxSKeOtLMjjNRn_ioOA&s=10",
+  },
+
+
+
+  {
+    title: "Portal Caminhoneiro DRB",
+    link: "https://https://www.drb-caminhoneiro.com//",
+    category: "Portal dos caminhoneiros da empresa DRB",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyfrvxs2yRce11kl5ltlpEM7YWxSKeOtLMjjNRn_ioOA&s=10",
+  },
+
+
+  {
+    title: "DRB Contábil",
+    link: "https://https://www.drb-contabil.com//",
+    category: "Sistema Contábil da empresa DRB",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSlRiy86xLCxBcdMArk0brOOV-IbKJKK36HzKAKEd6tRfQIq41wFJRwRfa&s=10",
+  },
 ];
 
 export default function PortfolioPage() {

@@ -23,7 +23,7 @@ const services = [
     description: "Soluções de software projetadas sob medida para automatizar e escalar seus processos internos.",
     icon: <Code size={24} />,
     img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=600",
-    features: ["Sistemas ERP & CRM", "APIs de Integração", "Dashboards de Dados"]
+    features: ["Sistemas Sob medida, ERP & CRM", "APIs de Integração", "Dashboards de Dados"]
   },
   {
     title: "Sites de Alta Performance",
